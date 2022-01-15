@@ -92,5 +92,6 @@ if __name__ == "__main__":
     {main_path} --model {model} --precision {precision} --mode {mode} --platform {platform} {data_dir} --epochs {epochs} \
         --prof {prof} --workspace {workspace} --data-backend {data_backend} --seed {seed} --raport-file {raport_file}"
 
+
     print (cmd)
     invoke_train(cmd)
